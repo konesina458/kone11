@@ -1,5 +1,5 @@
 > npm init --yes
-Wrote to /home/monatheoctocat/my_package/package.json:
+Wrote to /home/konesina458/my_package/package.json:
 
 {
   "name": "my_package",
@@ -10,13 +10,16 @@ Wrote to /home/monatheoctocat/my_package/package.json:
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/monatheoctocat/my_package.git"
+    "url": "https://github.com/konesina458/my_package.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/monatheoctocat/my_package/issues"
+    "url": "https://github.com/konesina458/my_package/issues"
   },
-  "homepage": "https://github.com/monatheoctocat/my_package"
-}￼Enter
+  "homepage": "https://github.com/konesina458/my_package"
+"publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+  },
+}
